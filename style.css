@@ -96,6 +96,13 @@ hr {
   background-repeat: no-repeat;
   background-position: center;
 }
+.badge {
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  padding-top: 21px;
+  padding-left: 209px;
+}
 .mic {
   margin: 0 auto;
   justify-content: center;
@@ -235,3 +242,120 @@ hr {
 }
 
 /* featured section related styles  */
+.featured-section {
+  background-color: #1a0b2e;
+  padding: 120px 0;
+}
+.featured-title {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.featured-title h3 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+.featured-cards {
+  gap: 30px;
+  margin-top: 41px;
+}
+.card {
+  width: 380px;
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 22px;
+}
+.card iframe {
+  width: 380px;
+  border-radius: 20px 20px 0px 0px;
+}
+.card h4 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 23px;
+}
+.card p {
+  margin: 0 25px 13px;
+}
+.time {
+  color: #00ff88;
+  padding-bottom: 23px;
+}
+
+/* host section related styles  */
+.host-title {
+  padding-top: 120px;
+}
+.host-title h3 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+.host-img {
+  width: 200px;
+}
+.host-content {
+  max-width: 1320px;
+  background-color: rgba(53, 17, 101, 0.4);
+  align-items: center;
+  margin: 36px auto 0px;
+  border-radius: 38px;
+  padding: 38px;
+  border: none;
+  gap: 24px;
+}
+.host-info h5 {
+  color: #ffffff;
+  font-size: 2 rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.host-info p {
+  margin-bottom: 15px;
+}
+.socials {
+  align-items: center;
+  gap: 10px;
+}
+.social-icon {
+  border: 1px solid #533c72;
+  border-radius: 100%;
+}
+.social-icon img {
+  align-items: center;
+  padding: 7.5px 9px;
+}
+
+/* footer section related styles  */
+.footer-container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+footer {
+  background-image: url(./assets/footer-bg.png);
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+}
+.footer-img {
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.footer-img img {
+  width: 412px;
+}
+.footer-links {
+  justify-content: center;
+  gap: 38px;
+}
+.footer-links p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.footer-container p {
+  text-align: center;
+}
