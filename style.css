@@ -13,7 +13,7 @@ header {
 p {
   color: #ffffff;
   font-size: 1rem;
-  line-height: 24px;
+  line-height: 25px;
   margin: 0;
   opacity: 0.8;
   text-align: left;
@@ -166,6 +166,72 @@ hr {
 }
 .about-bottom {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1320px;
   justify-content: space-around;
 }
+
+/* tech-wave section related styles  */
+.tech-wave-section {
+  background: rgba(35, 14, 61, 1);
+  padding: 120px 0px;
+}
+.tech-wave-heading {
+  margin: 0 auto;
+  max-width: 1320px;
+}
+.tech-wave-heading h3 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+.tech-wave-cards {
+  display: grid;
+  margin: 0 auto;
+  max-width: 1320px;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 38px;
+  gap: 30px;
+}
+.tech-wave-card {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.headphone img,
+.device img,
+.location img,
+.interview img,
+.resource img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+.headphone {
+  background-color: rgba(53, 17, 101, 0.4);
+  grid-row: 2 span;
+  border-radius: 40px;
+  border: none;
+  padding: 106px 41px;
+}
+.headphone p {
+  line-height: 28px;
+}
+.device,
+.location,
+.interview {
+  background-color: rgba(53, 17, 101, 0.4);
+  grid-column: 2 span;
+  border-radius: 40px;
+  border: none;
+  padding: 41px;
+}
+.resorce {
+  grid-column: 1 span;
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 40px;
+  border: none;
+  padding: 41px;
+}
+
+/* featured section related styles  */
