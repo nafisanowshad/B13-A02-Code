@@ -1,0 +1,149 @@
+/* for small device */
+@media screen and (max-width: 576px) {
+  nav {
+    padding: 19px;
+  }
+  .banner-img {
+    background-image: url(./assets/hero-circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 221px;
+    height: 221px;
+  }
+  .microphone {
+    width: 68px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  .banner-section {
+    padding-top: 38px;
+  }
+  .banner-section h1 {
+    color: white;
+    text-align: center;
+    font-size: 3.7rem;
+    font-weight: 800;
+    margin-top: 22px;
+  }
+  .btn-2 {
+    margin-bottom: 41px;
+  }
+  .nav-menu,
+  .btn{
+    visibility: hidden;
+  }
+  .badge {
+    padding-left: 178px;
+  }
+  .badge button {
+    background-color: #00ff88;
+    font-size: 1rem;
+    padding: 9px 15px;
+    border-radius: 100px;
+    border: none;
+  }
+  .about-heading {
+    padding-top: 38px;
+    padding-bottom: 77px;
+  }
+  .about-heading h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .about-text {
+    font-size: 1rem;
+    line-height: 20px;
+    margin: 18px;
+  }
+  .about-bottom {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    row-gap: 38px;
+  }
+  .about-bottom p {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .tech-wave-section {
+    padding: 41px 0px;
+  }
+  .tech-wave-section h3 {
+    text-align: center;
+    font-size: 32px;
+  }
+  .tech-wave-cards {
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 15px;
+    gap: 15px;
+  }
+  .headphone,
+  .location,
+  .device,
+  .interview,
+  .resorce {
+    border: none;
+    grid-template-columns: repeat(1,1fr);
+    border-radius: 21px;
+    padding: 12px;
+    margin-left: 19px;
+    margin-right: 21px;
+  }
+  .featured-section {
+    padding: 12px 0;
+  }
+  .featured-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 28px;
+    padding: 12px 12px;
+  }
+  .host-title {
+    padding-top: 57px;
+  }
+  .host-content {
+    flex-direction: column;
+    align-items: center;
+    margin: 22px 19px 0px;
+    text-align: center;
+  }
+  .host-info p {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .socials {
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+  }
+  footer {
+    padding: 44px 21px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+  }
+  .footer-icons {
+    justify-content: center;
+  }
+  .footer-img img {
+    max-width: 218px;
+  }
+  .footer-links {
+    width: 357px;
+    /* height: 329px; */
+    row-gap: 11px;
+    column-gap: 10px;
+    flex-wrap: wrap;
+  }
+  .footer-links p {
+    font-size: .88rem;
+    font-weight: 500;
+    margin-bottom: 11px;
+    margin-top: 10px;
+  }
+  .footer-copyright {
+    margin-top: 22px;
+    font-size: .88rem;
+  }
+}

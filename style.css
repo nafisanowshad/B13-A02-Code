@@ -96,6 +96,8 @@ hr {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/* badge styles */
 .badge {
   margin: 0 auto;
   justify-content: center;
@@ -103,6 +105,33 @@ hr {
   padding-top: 21px;
   padding-left: 209px;
 }
+.badge button {
+    position: relative;
+    background-color: #00FF88;
+    font-size: 1.125rem;
+    padding: 9px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    animation: badge-animation 2s ease-out 1s infinite;
+    transition: 1s;
+}
+@keyframes badge-animation {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0px rgba(114, 240, 68, 0.61);
+  }
+  50% {
+    transform: scale(1.05); 
+    box-shadow: 0 0 30px rgba(42, 197, 57, 0.6); 
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0px rgba(114, 240, 68, 0.61);
+  }
+}
+
+
 .mic {
   margin: 0 auto;
   justify-content: center;
